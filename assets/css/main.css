@@ -115,6 +115,7 @@ a:hover {
   font-size: 28px;
   color: #e74c3c;
 }
+
 /*team*/
 #team {
   background: #f1f1f1;
@@ -128,50 +129,13 @@ a:hover {
   border: 2px solid #34495e;
   border-radius: 50px;
 }
-/*team Overlay */
-.team-item {
-  position: relative;
-  margin-bottom: 15px;
-}
-.team-item img {
-  width: 100%;
-}
-.team-item .overlay {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: none;
-}
-.team-item:hover .overlay {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: block;
-}
-.team-item .icons .preview {
-  position: absolute;
-  left: 40%;
-  top: 40%;
-  color: #fff;
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-.team-item .icons .preview i {
-  color: #e74c3c;
-}
+
+/*clients*/
 #clients {
   background: #fff;
 }
+
+/*about*/
 #about {
   background: #34495e;
   color: #fff;
@@ -180,8 +144,9 @@ a:hover {
   line-height: 30px;
   font-size: 17px;
 }
+
+/*contact*/
 #contact {
-  /*background: #f1f1f1;*/
   background: #34495e;
   color: #fff;
 }
@@ -196,42 +161,6 @@ a:hover {
 }
 #contact :-ms-input-placeholder {
   color: #ecf0f1;
-}
-#contact .social i {
-  color: #fff;
-  padding: 10px;
-  margin-right: 5px;
-  width: 50px;
-  height: 50px;
-  vertical-align: middle;
-  background: #34495e;
-}
-#contact .social .social-links a:hover {
-  color: #fff;
-}
-#contact .social .fa-facebook:hover {
-  background: #3b5998;
-  color: #fff;
-}
-#contact .social .fa-twitter:hover {
-  background: #00CAFB;
-  color: #fff;
-}
-#contact .social .fa-google-plus:hover {
-  background: #D23A1D;
-  color: #fff;
-}
-#contact .social .fa-linkedin:hover {
-  background: #007bb6;
-  color: #fff;
-}
-#contact .social .fa-dribbble:hover {
-  background: #ea4c89;
-  color: #fff;
-}
-#contact .social .fa-github:hover {
-  background: #171515;
-  color: #fff;
 }
 #contact .contact-info {
   margin: 40px 0;
