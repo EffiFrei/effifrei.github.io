@@ -115,19 +115,28 @@ a:hover {
   font-size: 28px;
   color: #e74c3c;
 }
-/*Portfolio*/
-#portfolio {
+/*team*/
+#team {
   background: #f1f1f1;
 }
-/*Portfolio Overlay */
-.portfolio-item {
+
+#team .member {
+  padding: 10px 50px;
+}
+
+#team img {
+  border: 2px solid #34495e;
+  border-radius: 50px;
+}
+/*team Overlay */
+.team-item {
   position: relative;
   margin-bottom: 15px;
 }
-.portfolio-item img {
+.team-item img {
   width: 100%;
 }
-.portfolio-item .overlay {
+.team-item .overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -136,7 +145,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
 }
-.portfolio-item:hover .overlay {
+.team-item:hover .overlay {
   position: absolute;
   top: 0;
   width: 100%;
@@ -145,7 +154,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.8);
   display: block;
 }
-.portfolio-item .icons .preview {
+.team-item .icons .preview {
   position: absolute;
   left: 40%;
   top: 40%;
@@ -157,7 +166,7 @@ a:hover {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.portfolio-item .icons .preview i {
+.team-item .icons .preview i {
   color: #e74c3c;
 }
 #clients {
@@ -172,7 +181,9 @@ a:hover {
   font-size: 17px;
 }
 #contact {
-  background: #f1f1f1;
+  /*background: #f1f1f1;*/
+  background: #34495e;
+  color: #fff;
 }
 #contact ::-webkit-input-placeholder {
   color: #ecf0f1;
@@ -238,6 +249,12 @@ a:hover {
 .contact-form #submit {
   padding-top: 7px;
   padding-bottom: 7px;
+}
+#contact p {
+  font-size: 20px;
+}
+#contact h3 {
+  color: #bdc3c7;
 }
 
 /*Scroll Top*/
